@@ -1,5 +1,5 @@
 /*
- # STPrivilegedTask - NSTask-like wrapper around AuthorizationExecuteWithPrivileges
+ # PrivilegedTask - NSTask-like wrapper around AuthorizationExecuteWithPrivileges
  # Copyright (C) 2009-2017 Sveinbjorn Thordarson <sveinbjorn@sveinbjorn.org>
  #
  # BSD License
@@ -26,7 +26,7 @@
  # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "STPrivilegedTask.h"
+#import "PrivilegedTask.h"
 
 #import <Security/Authorization.h>
 #import <Security/AuthorizationTags.h>

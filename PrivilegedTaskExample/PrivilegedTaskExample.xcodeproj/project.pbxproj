@@ -27,8 +27,8 @@
 		F4F1035C1B5155A200BCAD40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4F1035D1B5155A200BCAD40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F4F1035F1B5155A200BCAD40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4F1037A1B515A1C00BCAD40 /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STPrivilegedTask.h; path = ../../STPrivilegedTask.h; sourceTree = "<group>"; };
-		F4F1037B1B515A1C00BCAD40 /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPrivilegedTask.m; path = ../../STPrivilegedTask.m; sourceTree = "<group>"; };
+		F4F1037A1B515A1C00BCAD40 /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		F4F1037B1B515A1C00BCAD40 /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
 		F4F1037E1B51664C00BCAD40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F4F1037F1B5166CF00BCAD40 /* lock-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "lock-icon.icns"; sourceTree = "<group>"; };
 		F4F103811B516A3500BCAD40 /* STPrivilegedTask.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = STPrivilegedTask.podspec; path = ../STPrivilegedTask.podspec; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				F4F1037B1B515A1C00BCAD40 /* STPrivilegedTask.m */,
 			);
 			name = STPrivilegedTask;
-			path = PrivilegedTaskExample;
+			path = ../Sources/STPrivilegedTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
